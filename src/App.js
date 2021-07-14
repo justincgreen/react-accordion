@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <h1>React Accordion</h1>
       <div className="accordion">
-        {accordionData.map(({title, content, id}) => (
-          <Accordion title={title} content={content} key={id} />
+        {accordionData.map(({id, title, content}) => (
+          <Accordion key={id} title={title} content={content} />
         ))}
       </div>
     </div>
