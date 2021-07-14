@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  width: 600px;
+  margin: 0 auto;
+}
+
+/* Accordion */
+.accordion-title {
+  padding: 20px;
+  background-color: #3B0089;
+  color: #fff;
+  cursor: pointer;
+}
+
+.accordion-title:hover {
+  background-color: #5A00FF;
+}
+
+.accordion-title > div + div {
+  float: right;
+  margin-top: -25px;
+}
+
+.accordion-content {
+  padding: 20px;
+  background-color: #877B9F;
+  color: #fff;
+}
